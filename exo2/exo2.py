@@ -28,3 +28,11 @@ fixed_tests_False = (
     ( "spam",    "eggs"  )
 )
 """
+def solution(ch1,ch2):
+        if ch2==ch1[len(ch1)-len(ch2):len(ch1)] :
+            return(True)
+        else:
+            return(False)
+
+
+print(solution('abc','bc'))
